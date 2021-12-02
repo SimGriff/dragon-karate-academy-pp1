@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Roboto:wght@300;400;700&display=swap');
+
+/*-----Remove default browser styling as shown in Love Running Project-----*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*-----General-----*/
+
+body{
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #373940;
+    background-color: #990000;
+}
+
+h1{
+    font-family: "Oswald";
+    font-weight: 500;
+}
+
+/*-----Logo-----*/
+
+.logo{
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 250%;
+    letter-spacing: 5px;
+    color: #fff;
+    float: left;
+}
+
+/*-----Navigation-----*/
+
+#menu{
+    font-size: 120%;
+    list-style-type: none;
+    letter-spacing: 5px;
+}
+
+#menu li{
+    display: inline-block;
+    float: right;
+    padding: 15px;
+}
+
+
+
+
