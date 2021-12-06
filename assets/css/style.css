@@ -122,10 +122,108 @@ footer a {
     font-weight: bold;
 }
 
+/*-----Hero Image/Text-----*/
 
+#hero-image {
+    height: 800px; 
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center;
+}
+
+#hero-text {
+    color: #fff;
+    font-size: 150%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+    width: 950px;
+    height: 200px;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+}
+
+/*-----About Us-----*/
+
+#about-us {
+    height: 800px;
+    color: #fff;
+    background-color: #373940;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#about-us-text {
+    width: 25%;
+    font-size: 110%;
+    margin-left: 30px;
+    margin-right: 20px;
+    float: left;
+    padding-right: 30px 20px 30px 20px;
+
+}
+
+#about-us-image {
+    height: 100%;
+    width: 25%; 
+    float: left;
+    padding-right: 30px 20px 30px 20px;
+    background: url("../images/boy.jpg") no-repeat center center;
+    background-color:rgb(157, 255, 0);
+}
+
+/*-----Lead Instructor-----*/
+
+
+/*-----Benefits of Karate-----*/
+
+.benefits-of-karate-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 600px;
+    background-color: #373940;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#physical-benefits-image {
+    height: 100%; 
+    width: 100%;
+    background: url("../images/karate stretch.jpg") no-repeat center center;
+}
+
+
+#physical-benefits-text {
+    color: #fff;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#mental-benefits-text {
+    color: #fff;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#mental-benefits-image {
+    height: 100%; 
+    width: 100%;
+    background: url("../images/sunset.jpg") no-repeat center center;
+}
 
 .test-block {
     height: 730px;
-    width: 100%;
+    width: 120%;
     background-color: coral;
+    
+
 }
