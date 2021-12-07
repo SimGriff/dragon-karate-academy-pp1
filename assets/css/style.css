@@ -13,7 +13,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     color: #373940;
-    background-color: #990000;
+    background-color: #fff;
 }
 
 h1 {
@@ -23,6 +23,7 @@ h1 {
 
 header {
     height: 100px;
+    background-color: #990000;
 }
 
 /*-----Logo-----*/
@@ -68,6 +69,127 @@ header {
 .active {
     font-size: 130%;
     font-weight: bold;
+}
+
+/*-----Hero Image/Text-----*/
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    background-color: #373940;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#hero-image {
+    height: 800px; 
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#hero-text {
+    color: #fff;
+    font-size: 150%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+    position: absolute;
+    width: 950px;
+    height: 200px;
+    top: 120px;
+    left: 30px;
+}
+
+/*-----About Us-----*/
+
+.about-us-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 600px;
+    background-color: #373940;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#about-us-text {
+    color: #fff;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+#about-us-image {
+    height: 100%;
+    width: 100%; 
+    float: left;
+    background: url("../images/boy.jpg") no-repeat top center;
+    background-size: contain;
+}
+
+/*-----Lead Instructor-----*/
+#lead-instructor-text {
+    color: #fff;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#lead-instructor-image {
+    background: url("../images/sensei.jpg") center top no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%; 
+}
+
+/*-----Benefits of Karate-----*/
+
+.benefits-of-karate-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 600px;
+    background-color: #373940;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#physical-benefits-image {
+    background: url("../images/defend.jpg") center top no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%; 
+}
+
+#physical-benefits-text {
+    color: #fff;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#mental-benefits-text {
+    color: #fff;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#mental-benefits-image {
+    height: 100%; 
+    width: 100%;
+    background: url("../images/meditation.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 /*-----Footer-----*/
@@ -122,102 +244,15 @@ footer a {
     font-weight: bold;
 }
 
-/*-----Hero Image/Text-----*/
+/*-----Gallery-----*/
+#photos {
+    clear: both;
+    column-gap: 8px;
+    column-count: 4;
+}
 
-#hero-image {
-    height: 800px; 
+#photos img {
     width: 100%;
-    background: url("../images/hero-image.jpg") no-repeat center center;
-}
-
-#hero-text {
-    color: #fff;
-    font-size: 150%;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    letter-spacing: 5px;
-    width: 950px;
-    height: 200px;
-    position: absolute;
-    top: 120px;
-    left: 30px;
-}
-
-/*-----About Us-----*/
-
-#about-us {
-    height: 800px;
-    color: #fff;
-    background-color: #373940;
-    margin-left:30px;
-    margin-right:30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#about-us-text {
-    width: 25%;
-    font-size: 110%;
-    margin-left: 30px;
-    margin-right: 20px;
-    float: left;
-    padding-right: 30px 20px 30px 20px;
-
-}
-
-#about-us-image {
-    height: 100%;
-    width: 25%; 
-    float: left;
-    padding-right: 30px 20px 30px 20px;
-    background: url("../images/boy.jpg") no-repeat center center;
-    background-color:rgb(157, 255, 0);
-}
-
-/*-----Lead Instructor-----*/
-
-
-/*-----Benefits of Karate-----*/
-
-.benefits-of-karate-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 600px;
-    background-color: #373940;
-    margin-left:30px;
-    margin-right:30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#physical-benefits-image {
-    height: 100%; 
-    width: 100%;
-    background: url("../images/karate stretch.jpg") no-repeat center center;
-}
-
-
-#physical-benefits-text {
-    color: #fff;
-    margin-left:30px;
-    margin-right:30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#mental-benefits-text {
-    color: #fff;
-    margin-left:30px;
-    margin-right:30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#mental-benefits-image {
-    height: 100%; 
-    width: 100%;
-    background: url("../images/sunset.jpg") no-repeat center center;
 }
 
 .test-block {
