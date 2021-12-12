@@ -242,9 +242,10 @@ footer a {
 }
 
 #gallery-images {
-    height: 100%;
-    width: 100%; 
-    background-size: cover;
+    clear: both;
+    height: auto;
+    width: auto; 
+    background-size: contain;
 }
 
 #photos img {
@@ -253,7 +254,7 @@ footer a {
 
 /*-----Contact-----*/
 #form-style {
-    background-color: #990000;
+    background-color: rgba(rgb(172, 177, 190), green, blue, alpha);
 }
 .contact-page {
     color: #373940;
@@ -270,15 +271,15 @@ footer a {
 .training {
     padding: 20px 20px 20px 20px;
     height: 600px;
-    background-color: #373940;
-    color: #fff;
+    background-color: #fff;
+    color: #373940;
 }
 
 #child-on-mat-image {
     background: url("../images/child-on-mat.jpg") no-repeat center center;
-    background-size: cover;
     height: auto;
     width: auto;  
+    background-size: contain;
 }
 
 .test-block {
