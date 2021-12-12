@@ -13,7 +13,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     color: #373940;
-    background-color: #fff;
+    background-color: #373940;
 }
 
 h1 {
@@ -31,7 +31,7 @@ header {
 .logo {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
-    font-size: 270%;
+    font-size: 2.5vw;
     letter-spacing: 5px;
     color: #fff;
     margin-left: 30px;
@@ -73,13 +73,7 @@ header {
 /*-----Hero Image/Text-----*/
 
 .hero-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 600px;
-    background-color: #373940;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    padding-bottom: 5px;
 }
 
 #hero-image {
@@ -87,25 +81,26 @@ header {
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center;
     background-size: cover;
+    position: relative;
 }
 
 #hero-text {
     color: #fff;
-    font-size: 150%;
+    font-size: 2vw;
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 5px;
     position: absolute;
-    width: 950px;
-    height: 200px;
-    top: 120px;
+    padding: 5px 10px 5px 10px;
+    top: 10px;
     left: 30px;
+    background-color: rgba(178, 156, 171, 0.6);
 }
 
 /*-----About Us-----*/
 
 .about-us-container {
-    background-color: rgba(243, 8, 8, 0.897);
+    background-color: rebeccapurple;
 }
 
 #about-us-text {
@@ -122,7 +117,7 @@ header {
     height: auto;
     width: auto; 
     background: url("../images/boy.jpg") no-repeat center center;
-    background-size: contain;
+    background-size: contain auto;
 }
 
 /*-----Lead Instructor-----*/
@@ -212,8 +207,8 @@ footer a {
 }
 
 .left-contact a:hover {
-    font-size: 130%;
     font-weight: bold;
+    color: salmon;
 }
 
 .left-contact a {
@@ -235,12 +230,12 @@ footer a {
 
 .social-media i {
     color: #fff;
-    font-size: 80%
+    font-size: 120%
 }
 
 .social-media li:hover {
-    font-size: 130%;
     font-weight: bold;
+    color: salmon;
 }
 
 /*-----Gallery-----*/
@@ -252,6 +247,36 @@ footer a {
 
 #photos img {
     width: 100%;
+}
+
+/*-----Contact-----*/
+#form-style {
+    background-color: #990000;
+}
+.contact-page {
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: auto;
+    background-color: #373940;
+    padding: 20px 20px 20px 20px;
+}
+
+/*-----Training-----*/
+
+.training {
+    padding: 20px 20px 20px 20px;
+    height: 600px;
+    background-color: #373940;
+}
+
+#child-on-mat-image {
+    background: url("../images/child-on-mat.jpg") no-repeat center center;
+    background-size: contain;
+    height: auto;
+    width: auto;  
 }
 
 .test-block {
