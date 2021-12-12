@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Roboto:wght@300;400;700&display=swap');
 
 /*-----Remove default browser styling as shown in Love Running Project-----*/
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
 
 /*-----General-----*/
 
@@ -13,7 +8,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     color: #373940;
-    background-color: #373940;
+    background-color: #fff;
 }
 
 h1 {
@@ -61,19 +56,19 @@ header {
 }
 
 #menu a:hover {
-    font-size: 130%;
     font-weight: bold;
+    color: salmon;
 }
 
 .active {
-    font-size: 130%;
     font-weight: bold;
+    color: salmon;
 }
 
 /*-----Hero Image/Text-----*/
 
 .hero-container {
-    padding-bottom: 5px;
+    padding-bottom: 0spx;
 }
 
 #hero-image {
@@ -100,35 +95,36 @@ header {
 /*-----About Us-----*/
 
 .about-us-container {
-    background-color: rebeccapurple;
+    background-color: #fff;
+    margin-left: 30px;
 }
 
 #about-us-text {
-    color: #fff;
+    color: #373940;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
-    background-color: #373940;
+    background-color: #fff;
 }
 
 #about-us-image {
     height: auto;
     width: auto; 
     background: url("../images/boy.jpg") no-repeat center center;
-    background-size: contain auto;
+    background-size: contain;
 }
 
 /*-----Lead Instructor-----*/
 #lead-instructor-text {
-    color: #fff;
+    color: #373940;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
-    background-color: #373940;
+    background-color: #fff;
 }
 
 #lead-instructor-image {
@@ -158,23 +154,23 @@ header {
 }
 
 #physical-benefits-text {
-    color: #fff;
+    color: #373940;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
-    background-color: #373940;
+    background-color: #fff;
 }
 
 #mental-benefits-text {
-    color: #fff;
+    color: #373940;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
-    background-color: #373940;
+    background-color: #fff;
 }
 
 #mental-benefits-image {
@@ -245,6 +241,12 @@ footer a {
     column-count: 4;
 }
 
+#gallery-images {
+    height: 100%;
+    width: 100%; 
+    background-size: cover;
+}
+
 #photos img {
     width: 100%;
 }
@@ -254,13 +256,12 @@ footer a {
     background-color: #990000;
 }
 .contact-page {
-    color: #fff;
-    margin-left: 5px;
-    margin-right: 5px;
+    color: #373940;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 5px;
     margin-bottom: 5px;
-    width: auto;
-    background-color: #373940;
+    background-color: #fff;
     padding: 20px 20px 20px 20px;
 }
 
@@ -270,11 +271,12 @@ footer a {
     padding: 20px 20px 20px 20px;
     height: 600px;
     background-color: #373940;
+    color: #fff;
 }
 
 #child-on-mat-image {
     background: url("../images/child-on-mat.jpg") no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     height: auto;
     width: auto;  
 }
