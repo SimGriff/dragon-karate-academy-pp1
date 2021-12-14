@@ -14,6 +14,9 @@ h1 {
     font-weight: 500;
 }
 
+h3 {
+    color: #373940;
+}
 header {
     background-color: #990000;
 }
@@ -37,7 +40,7 @@ header {
 }
 /*-----Only way to change the logo hover color-----*/
 a:hover {
-    color: #373940;
+    color: #fff;
     border-bottom: 0px solid;
 }
 
@@ -242,8 +245,10 @@ footer a {
 }
 
 /*-----Contact-----*/
-#form-style {
-    background-color: rgba(rgb(172, 177, 190), green, blue, alpha);
+.form-style {
+    /*background-color: rgba(178, 156, 171, 0.6);
+    color:#373940;*/
+
 }
 .contact-page {
     color: #373940;
