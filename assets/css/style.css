@@ -26,7 +26,7 @@ header {
 .logo {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
-    font-size: 2.5vw;
+    font-size: 10vw;
     letter-spacing: 5px;
     color: #fff;
     float: left;
@@ -104,7 +104,7 @@ a:hover {
     padding: 5px 10px 5px 10px;
     top: 10px;
     left: 30px;
-    background-color: rgba(178, 156, 171, 0.6);
+    
 }
 
 /*-----About Us-----*/
@@ -178,6 +178,7 @@ footer {
     background-color: #373940;
     height: 90px;
     color: #fff;
+    bottom: 0;
 }
 
 footer a {
@@ -196,7 +197,6 @@ footer a {
 
 .left-contact a:hover {
     font-weight: bold;
-    color: salmon;
 }
 
 .left-contact a {
@@ -207,7 +207,7 @@ footer a {
     text-align: right;
     list-style-type: none;
     float: right;
-    letter-spacing: 30px;
+    letter-spacing: 20px;
     margin-right: 30px;
     margin-top: 20px;
 }
