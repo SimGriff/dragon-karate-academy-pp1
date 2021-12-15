@@ -264,13 +264,12 @@ footer a {
 
 .training {
     padding: 20px 20px 20px 20px;
-    height: 600px;
+    height: auto;
     background-color: #fff;
     color: #373940;
 }
 
 #child-on-mat-image {
-    background: url("../images/child-on-mat.jpg") no-repeat center center;
     height: auto;
     width: auto;  
     background-size: contain;
