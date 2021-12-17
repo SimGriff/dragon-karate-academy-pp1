@@ -35,7 +35,7 @@ Images of Mobile, Tablet, Desktop skins for site here.
 
   * Typography
 
-    1. The Oswald font from [Google Fonts](https://fonts.google.com/) is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto has been used for all headings in the site.
+    1. The Roboto font from [Google Fonts](https://fonts.google.com/) is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto has been used for all headings in the site.
     2. Roboto-strong clean lines, with gentle curves is a popular font that is familiar to user and was used throughout the main text in the site. Google fonts suggested Oswald as a good pairing for this font and has been designed to be used on various devices. This font was used in all headings including the logo.
 
 * Imagery
@@ -238,6 +238,8 @@ Bootstrap Library used throughout the project mainly to make site responsive usi
 Code for embedded google map obtained from Google Maps.
 
 * Code used from Whiskey Drop Project to help with responsive Navigation menu and help with the submit form in the Contact page.
+
+* [Duda](https://blog.duda.co/responsive-google-maps-for-your-website) site, code used to modify embeded Google Map.
 
 * [W3Schools:](https://www.w3schools.com/)
 Also used W3Schools site, utilising their Tutorials on various topics that contributed to my general understanding e.g. Bootstrap Grids, forms, navigation bar.
