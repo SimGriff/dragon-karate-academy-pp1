@@ -46,22 +46,22 @@
 <!-- Contact Form -->
             <div class="col-sm-12 col-lg-3 form-style">
                 <h3>For further information you can contact us on the form below:</h3>
-                <form class="form-style">
+                <form class="form-style" method="post" action="https://formdump.codeinstitute.net/">
                     <div class="form-group">
                         <label for="fname">First Name</label>
-                        <input type="text" class="form-control" id="fname" placeholder="First Name">
+                        <input type="text" class="form-control required-input" required id="fname" name="first_name" placeholder="First Name">
                     </div>
                     <div class="form-group">
                         <label for="lname">Last Name</label>
-                        <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                        <input type="text" class="form-control required-input" required id="lname" name="last_name" placeholder="Last Name">
                     </div>
                     <div class="form-group">
                         <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        <input type="email" class="form-control required-input" required id="email" name="email" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
                         <label for="reason">Contact Reason</label>
-                        <select class="form-control" id="reason">
+                        <select class="form-control" id="reason" name="subject">
                             <option value="new-members">New Members</option>
                             <option value="existing-members">Existing Members</option>
                             <option value="training-times">Training Times</option>
@@ -71,7 +71,7 @@
                     </div>
                     <div class="form-group">
                     <label for="message">Message</label>
-                        <textarea class="form-control" id="message" rows="5"></textarea>
+                        <textarea class="form-control required-input" required id="message" rows="5" name="message"></textarea>
                     </div>
                     <div class="text-center">
                         <button type="submit" class="btn btn-success">Submit</button>

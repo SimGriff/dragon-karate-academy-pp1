@@ -115,11 +115,9 @@ The training table clearly displays the clubs regular training session times and
 
 ### Contact page
 
-The contact page is where new and existing members can contact the club. They are provided with multiple options to communicate with the club  including the club’s full postal address, email and telephone number together with a google map to show precisely where the club is located. Users also have the option to contact the club via a form that incorporates a dropdown subject option with room to input a typed message to the club in a box underneath. This has a clearly defined send button to submit the form.
+The contact page is where new and existing members can contact the club. They are provided with multiple options to communicate with the club  including the club’s full postal address, email and telephone number together with a google map to show precisely where the club is located. Users also have the option to contact the club via a form that incorporates a dropdown subject option with room to input a typed message to the club in a box underneath, this has a clearly defined send button to submit the form. The submitted form takes the user to https://formdump.codeinstitute.net/. 
 
 ![Screenshot of contact section](docs/screenshots/screenshot-contact.png)
-
-
 ![Screenshot of form](docs/screenshots/screenshot-form.png)
 
 ## Future Features
@@ -205,7 +203,8 @@ When I read more into this I found that when you link to a page on another site 
 
 ### Manual Testing
 
-This website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Mozilla Firefox. The site was also tested across multiple devices to ensure all links and styling worked correctly and to ensure responsiveness across the devices. All features on the page were tested to ensure functionality was intact. Testing was carried out on an Apple iPhone, Apple iPhone 13, Apple iPad Pro, Samsung Galaxy S20 FE, Samsung Galaxy A51, & Windows 10 Desktop.
+This website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Mozilla Firefox. The site was also tested across multiple devices to ensure all links and styling worked correctly and to ensure responsiveness across the devices. All features on the page were tested to ensure functionality was intact, the form on the Contact page was also tested to ensure that only when all fields were required would the form be sent to https://formdump.codeinstitute.net/. 
+Testing was carried out on an Apple iPhone, Apple iPhone 13, Apple iPad Pro, Samsung Galaxy S20 FE, Samsung Galaxy A51, & Windows 10 and 11 for Desktop.
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Fixed Bugs
