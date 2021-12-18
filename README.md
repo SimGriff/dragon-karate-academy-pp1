@@ -75,7 +75,7 @@ The navigation bar is included on all four pages of the site and includes the cl
 ### Footer
 ![Screenshot of footer](docs/screenshots/screenshot-footer.png)
 
-The white text and icons on the dark grey backround of the footer provided continuity throughout the site. The footer has been divided into two clear sections. Basic club contact details are displayed on the left hand side, when clicked, this takes you to the main Contact Page providing the user with full contact details. The right hand side contains social media links to the Club’s Facebook, Twitter, YouTube and Instagram accounts.
+The white text and icons on the dark grey background of the footer provided continuity throughout the site. The footer has been divided into two clear sections. Basic club contact details are displayed on the left hand side, when clicked, this takes you to the main Contact Page providing the user with full contact details. The right hand side contains social media links to the Club’s Facebook, Twitter, YouTube and Instagram accounts.
 
 
 ### Home Page
@@ -148,7 +148,7 @@ Google fonts were used to import the ‘Oswald’ and ‘Roboto’' fonts into t
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
 * [Google Maps:](https://www.google.com/maps)
-Code for embeded google map obtined from Google Maps
+Code for embedded google map obtained from Google Maps
 
 * [Bootstrap 4.3:](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 Bootstrap was used to assist with the responsiveness and styling of the website, it was used to structure the site and helped make the Navigation menu be responsive. In particular, Bootstrap sample code was used for the navbar, footer and form where it was customized to fit my content and purpose.
@@ -172,24 +172,24 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
  + Home Page
 
-![HTML home page vaildataion](docs/testing/html-validator-w3c.png)
+![HTML home page validataion](docs/testing/html-validator-w3c.png)
 
  + Gallery page
 
- ![HTML gallery page vaildataion](docs/testing/html-validator-w3c.png)
+ ![HTML gallery page validataion](docs/testing/html-validator-w3c.png)
 
  + Training Page
 
- ![HTML training page vaildataion](docs/testing/html-validator-w3c.png)
+ ![HTML training page validataion](docs/testing/html-validator-w3c.png)
 
  + Contact page
 
- ![HTML contact page vaildataion](docs/testing/html-validator-w3c.png)
+ ![HTML contact page validataion](docs/testing/html-validator-w3c.png)
 
 
 ### W3C CSS Validator results:
 
-![CSS vaildataion](docs/testing/css-validation-w3c.png)
+![CSS validataion](docs/testing/css-validation-w3c.png)
 
 No errors were returned for all HTML or CSS across all tests. 
 
@@ -209,9 +209,9 @@ This website was tested on Google Chrome, Internet Explorer, Microsoft Edge and 
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Fixed Bugs
-During testing then Home page did not display four alternating columns of text and image as intended. I was initially unable to discover the issue, my mentor suggested that I need to check that I hadn't inadvertently overwritten my Bootstrap Grid. I discovererd that this was the case, I had overcompensated with the margins on the sections and this had resulted in there only being enough width for three columns on the page. I removed the offending margins from the custom classes I had created and this resolved the issue.
+During testing then Home page did not display four alternating columns of text and image as intended. I was initially unable to discover the issue, my mentor suggested that I need to check that I hadn't inadvertently overwritten my Bootstrap Grid. I discovered that this was the case, I had overcompensated with the margins on the sections and this had resulted in there only being enough width for three columns on the page. I removed the offending margins from the custom classes I had created and this resolved the issue.
 
-There was also an issue with the main logo, it was permanently underlined in blue along with a blue font colour instead of the intended white. Eventually I discovered the problem, a simple typo, the Bootstrap Nav Bar had been incorrectly shown as _nabar-brand_** instead of _navbar-brand_**. As tsoon as I fixed the typo, the issue was resolved.
+There was also an issue with the main logo, it was permanently underlined in blue along with a blue font colour instead of the intended white. Eventually I discovered the problem, a simple typo, the Bootstrap Nav Bar had been incorrectly shown as _nabar-brand_** instead of _navbar-brand_**. As soon as I fixed the typo, the issue was resolved.
 
 ![Navigation error](docs/testing/navbar-brand.png)
 
@@ -269,7 +269,7 @@ Code for embedded google map obtained from Google Maps.
 
 * Code used from Whiskey Drop Project to help with responsive Navigation menu and help with the submit form in the Contact page.
 
-* [Duda](https://blog.duda.co/responsive-google-maps-for-your-website) site, code used to modify embeded Google Map.
+* [Duda](https://blog.duda.co/responsive-google-maps-for-your-website) site, code used to modify embedded Google Map.
 
 * [W3Schools:](https://www.w3schools.com/)
 Also used W3Schools site, utilising their Tutorials on various topics that contributed to my general understanding e.g. Bootstrap Grids, forms, navigation bar.
