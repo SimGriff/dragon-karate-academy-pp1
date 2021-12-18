@@ -37,7 +37,8 @@ Images of Mobile, Tablet, Desktop skins for site here.
 
   * Colour Scheme
     1. The two main colours used in this project are #990000 for the top navigation bar, and #373940 for the footer with white #ffffff text. Both #990000 and #373940 were tested as background colours with #ffffff text, both passed on the contrast checker on the [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) website ensuring excellent readability. All other text on the site was #373940 on a white background, which also passed the contrast checker.
-|![contrast checker for white text on deep red background](docs/screenshots/red-contrast-check.png)
+
+![contrast checker for white text on deep red background](docs/screenshots/red-contrast-check.png)
 ![contrast checker for white text on grey background](docs/screenshots/grey-contrast-check.png)
   * Typography
 
@@ -51,7 +52,7 @@ Images of Mobile, Tablet, Desktop skins for site here.
     3. All images used throughout the site are from [pixabay](https://pixabay.com/) and [unsplash](https://unsplash.com/) with a Free to use license.
 
 ## Wireframes
-The wireframes for the Dragon Karate Academy website were produced using Balsamiq. The wireframes differ in several aspects to the deployed site due to ……..
+The wireframes for the Dragon Karate Academy website were produced using Balsamiq. Please note that the original design was for only three pages, this was later modified to four pages in order to fit the content.
 
 * Mobile Wireframes:
   - [Home](docs/wireframes/home-mobile.png)
@@ -83,17 +84,17 @@ The white text and icons on the dark grey backround of the footer provided conti
 
 The Home page draws the users attention with the eye catching Hero Image of karate training on the beach. This immediately conveys the subject of the site.
 
-* About Us Section
+* *About Us Section*
 
 Provides a brief history of the club including what service they provide and their goals, this is intended to encourage new users to join.
 
 ![Screenshot of about us section](docs/screenshots/screenshot-about-lead.png)
 
-* Lead Instructor Section
+* *Lead Instructor Section*
 
 Personal story of Lead Instructor to provide the user with confidence as the training is led by a very experienced sensei at the club.
 
-* Benefits of karate Section
+* *Benefits of karate Section*
 
 Further information on the physical and mental benefits of karate to encourage new members to take up the discipline and inspiration to existing members to stick with the training.
 
@@ -147,7 +148,7 @@ Google fonts were used to import the ‘Oswald’ and ‘Roboto’' fonts into t
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
 * [Google Maps:](https://www.google.com/maps)
-Code for embeded google map obtined as is from Google Maps
+Code for embeded google map obtined from Google Maps
 
 * [Bootstrap 4.3:](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 Bootstrap was used to assist with the responsiveness and styling of the website, it was used to structure the site and helped make the Navigation menu be responsive. In particular, Bootstrap sample code was used for the navbar, footer and form where it was customized to fit my content and purpose.
@@ -159,7 +160,7 @@ The PIXLR website was used to resize images and editing photos for this project.
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 * [GitHub:](https://github.com/)
-
+Github was used to host and deploy the website.
 
 ## Testing
 
@@ -167,7 +168,7 @@ Throughout the project I have been using DevTools on the Chrome browser to test 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-* W3C Markup Validator results
+### W3C Markup Validator results
 
  + Home Page
 
@@ -186,46 +187,51 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
  ![HTML contact page vaildataion](docs/testing/html-validator-w3c.png)
 
 
-* W3C CSS Validator results:
+### W3C CSS Validator results:
 
 ![CSS vaildataion](docs/testing/css-validation-w3c.png)
 
 No errors were returned for all HTML or CSS across all tests. 
 
-* Lighthouse Testing
+### Lighthouse Testing
 For the Lighthouse testing Best Practices only reached a score of 87, with the message 'Links to cross-origin destinations are unsafe'. 
 
-![Lighthouse first test](docs/testing/css-validation-w3c.png)
+![Lighthouse first test](docs/testing/lighthouse-first-run.png)
+
 When I read more into this I found that when you link to a page on another site using the target="_blank" attribute, you can expose your site to performance and security issues. The advice given was to add rel="noopener" to my target="_blank" links to avoids these issues. Once this was done the following results were achieved;
 
+![Lighthouse successful test](docs/testing/lighthouse-success.png)
 
 
-* Manual Testing
+### Manual Testing
 
-This website is tested on Google Chrome, Microsoft Edge and Mozilla Firefox. The site was also tested across multiple devices to ensure all links and styling worked correctly and to ensure responsiveness across the devices. All features on the page were tested to ensure functionality was intact. Testing was carried out on an Apple iPhone, Apple iPhone 13, Apple iPad Pro, Samsung Galaxy S20 FE, Samsung Galaxy A51, & Windows 10 Desktops.
-The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+This website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Mozilla Firefox. The site was also tested across multiple devices to ensure all links and styling worked correctly and to ensure responsiveness across the devices. All features on the page were tested to ensure functionality was intact. Testing was carried out on an Apple iPhone, Apple iPhone 13, Apple iPad Pro, Samsung Galaxy S20 FE, Samsung Galaxy A51, & Windows 10 Desktop.
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-* Known Bugs
+### Fixed Bugs
+During testing then Home page did not display four alternating columns of text and image as intended. I was initially unable to discover the issue, my mentor suggested that I need to check that I hadn't inadvertently overwritten my Bootstrap Grid. I discovererd that this was the case, I had overcompensated with the margins on the sections and this had resulted in there only being enough width for three columns on the page. I removed the offending margins from the custom classes I had created and this resolved the issue.
+
+There was also an issue with the main logo, it was permanently underlined in blue along with a blue font colour instead of the intended white. Eventually I discovered the problem, a simple typo, the Bootstrap Nav Bar had been incorrectly shown as _nabar-brand_** instead of _navbar-brand_**. As tsoon as I fixed the typo, the issue was resolved.
+
+![Navigation error](docs/testing/navbar-brand.png)
+
 
 ## Deployment
 
 ### GitHub Pages
 
-* The project was deployed to GitHub Pages using the following steps...
+* The project was deployed to GitHub Pages using the following steps:
 
 1.	Log in to GitHub and locate the GitHub Repository
 2.	At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-   + Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
 3.	Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4.	Under "Source", click the dropdown called "None" and select "Master Branch".
+4.	Under "Source", click the dropdown called "None" and select "Main Branch".
 5.	The page will automatically refresh.
 6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 * Forking the GitHub Repository
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 1.	Log in to GitHub and locate the GitHub Repository
 2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3.	You should now have a copy of the original repository in your GitHub account.
@@ -239,11 +245,11 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 5.	Change the current working directory to the location where you want the cloned directory to be made.
 6.	Type git clone, and then paste the URL you copied in Step 3.
 
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/SimGriff/dragon-karate-academy-pp1
 
 7.	Press Enter. Your local clone will be created.
 
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/SimGriff/dragon-karate-academy-pp1
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
@@ -270,11 +276,11 @@ Also used W3Schools site, utilising their Tutorials on various topics that contr
 
 ### Media
 
-* Map embedded from Google Maps.
-* The wireframes were created using Balsamiq
-* The font came from GoogleFonts
-* The icons came from Font Awesome
-* Images are from [Unsplash.com](https://unsplash.com/) and [Pexels.com](https://www.pexels.com/)
+* Map embedded from [Google Maps.](https://www.google.com/maps).
+* The wireframes were created using Balsamiq[Balsamiq.](https://balsamiq.com/)
+* The font came from [Google Fonts.](https://fonts.google.com/)
+* The icons came from [Font Awesome.](https://fontawesome.com/)
+* Images are from [Unsplash.com](https://unsplash.com/) and [Pexels.com.](https://www.pexels.com/)
  - Individual Credits
   + Allen Tanzadeh (Unsplash)
   + Ashima Pargal (Unsplash)
