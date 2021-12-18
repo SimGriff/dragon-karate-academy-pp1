@@ -37,7 +37,8 @@ Images of Mobile, Tablet, Desktop skins for site here.
 
   * Colour Scheme
     1. The two main colours used in this project are #990000 for the top navigation bar, and #373940 for the footer with white #ffffff text. Both #990000 and #373940 were tested as background colours with #ffffff text, both passed on the contrast checker on the [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) website ensuring excellent readability. All other text on the site was #373940 on a white background, which also passed the contrast checker.
-
+|![contrast checker for white text on deep red background](docs/screenshots/red-contrast-check.png)
+![contrast checker for white text on grey background](docs/screenshots/grey-contrast-check.png)
   * Typography
 
     1. The Roboto font from [Google Fonts](https://fonts.google.com/) is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto has been used for all headings in the site.
@@ -166,38 +167,38 @@ Throughout the project I have been using DevTools on the Chrome browser to test 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-* W3C Markup Validator - Results
-HTML validation results:
+* W3C Markup Validator results
 
  + Home Page
 
-![HTML home page vaildataion]()
+![HTML home page vaildataion](docs/testing/html-validator-w3c.png)
 
  + Gallery page
 
- ![HTML home page vaildataion]()
+ ![HTML gallery page vaildataion](docs/testing/html-validator-w3c.png)
 
  + Training Page
 
- ![HTML home page vaildataion]()
+ ![HTML training page vaildataion](docs/testing/html-validator-w3c.png)
 
  + Contact page
- 
- ![HTML home page vaildataion]()
+
+ ![HTML contact page vaildataion](docs/testing/html-validator-w3c.png)
 
 
+* W3C CSS Validator results:
 
-* W3C CSS Validator - Results
+![CSS vaildataion](docs/testing/css-validation-w3c.png)
 
-No errors were returned for all HTML or CSS across all tests. Some warnings were displayed.
-Both tools were used to test the website by URL and by direct input, the results are as follows:
-
-HTML Validation URL
-
-
-HTML Validation Direct Input
+No errors were returned for all HTML or CSS across all tests. 
 
 * Lighthouse Testing
+For the Lighthouse testing Best Practices only reached a score of 87, with the message 'Links to cross-origin destinations are unsafe'. 
+
+![Lighthouse first test](docs/testing/css-validation-w3c.png)
+When I read more into this I found that when you link to a page on another site using the target="_blank" attribute, you can expose your site to performance and security issues. The advice given was to add rel="noopener" to my target="_blank" links to avoids these issues. Once this was done the following results were achieved;
+
+
 
 * Manual Testing
 
