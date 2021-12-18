@@ -208,7 +208,7 @@ Testing was carried out on an Apple iPhone, Apple iPhone 13, Apple iPad Pro, Sam
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Fixed Bugs
-During testing then Home page did not display four alternating columns of text and image as intended. I was initially unable to discover the issue, my mentor suggested that I need to check that I hadn't inadvertently overwritten my Bootstrap Grid. I discovered that this was the case, I had overcompensated with the margins on the sections and this had resulted in there only being enough width for three columns on the page. I removed the offending margins from the custom classes I had created and this resolved the issue.
+During testing the Home page did not display four alternating columns of text and image as intended. I was initially unable to discover the issue, my mentor suggested that I need to check that I hadn't inadvertently overwritten my Bootstrap Grid. I discovered that this was the case, I had overcompensated with the margins on the sections and this had resulted in there only being enough width for three columns on the page. I removed the offending margins from the custom classes I had created and this resolved the issue.
 
 There was also an issue with the main logo, it was permanently underlined in blue along with a blue font colour instead of the intended white. Eventually I discovered the problem, a simple typo, the Bootstrap Nav Bar had been incorrectly shown as _nabar-brand_** instead of _navbar-brand_**. As soon as I fixed the typo, the issue was resolved.
 
@@ -263,7 +263,7 @@ Click [Here](https://docs.github.com/en/repositories/creating-and-managing-repos
 * [Bootstrap4:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Bootstrap snippets from the site were also used with some modification to produce responsive navigation, footer and form.
 
-* [Google Maps:](https://www.google.com/maps)Code for embedded google map obtained from Google Maps.
+* [Google Maps:](https://www.google.com/maps) Code for embedded google map obtained from Google Maps.
 Code for embedded google map obtained from Google Maps.
 
 * Code used from Whiskey Drop Project to help with responsive Navigation menu and help with the submit form in the Contact page.
@@ -276,7 +276,7 @@ Also used W3Schools site, utilising their Tutorials on various topics that contr
 ### Media
 
 * Map embedded from [Google Maps.](https://www.google.com/maps).
-* The wireframes were created using Balsamiq[Balsamiq.](https://balsamiq.com/)
+* The wireframes were created using [Balsamiq.](https://balsamiq.com/)
 * The font came from [Google Fonts.](https://fonts.google.com/)
 * The icons came from [Font Awesome.](https://fontawesome.com/)
 * Images are from [Unsplash.com](https://unsplash.com/) and [Pexels.com.](https://www.pexels.com/)
